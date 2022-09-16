@@ -1,0 +1,90 @@
+
+body{padding: 150px;font-family: Brush Script MT, cursive;}
+		
+		#menu{
+			background-color: rgb(255, 255, 255);
+            margin-top: -150px;
+
+		}
+
+		#menu ul{
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		#menu ul li{
+			display: inline-block;
+		}
+
+		#menu ul li a{
+			color: rgb(0, 0, 0);
+			display: block;
+			padding: 20px 20px;
+			text-decoration: none;
+            font-family: Verdana; 
+            font-size: small;
+		}
+
+		#menu ul li a:hover{
+			background-color: rgb(167, 160, 70);
+		}
+
+		.item-r{
+			float: right;
+        }
+
+#uno{
+    width: 655px;
+    height: 400px;
+    margin-top: 0px;
+    margin-left: -150px;
+    border-radius: 0px;
+    background-color: rgb(167, 160, 70);
+}
+#dos{
+    width: 695px;
+    height: 400px;
+    margin-top: 0px;
+    float: right;
+    margin-right: -150px;
+    border-radius: 0px;
+    background-color: rgb(167, 160, 70);
+}
+#tres{
+    width: 655px;
+    height: 400px;
+    margin-top: 400px;
+    margin-left: -150px;
+    border-radius: 0px;
+    background-color: rgb(167, 160, 70);
+}
+#previous, #next{
+    margin-top: 100px;
+}
+
+.buttons {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(167, 160, 70);
+  margin-bottom: -100px;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #000000;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(255, 254, 254, 0.5);
+  transition: all .4s ease-in-out;
+}
+
+.buttons a:hover {
+  transform: scale(1.2);
+}
